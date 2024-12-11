@@ -1,6 +1,20 @@
-Here are detailed example cases for each requested extension:
-
+Examples:
 1. SOC2 Compliance Assistant
+2. Backlog Prioritization Assistant
+3. Azure Assistant
+4. Merge Conflict Resolution Assistant
+5. Post-merge Documentation Builder
+6. Impact Analysis Assistant
+7. Comprehensive Infrastructure Cost Optimizer
+8. Security & Compliance Validator
+9. Intelligent PR Review Assistant
+10. OAuth (or other things) Implementation Assistant
+11. GitHub Action Runner Optimizer
+12. GitHub Discussions Manager
+13. Co-Teacher Assistant
+14. Slack AI search
+
+# 1. SOC2 Compliance Assistant
 ```
 User: "@soc2-checker analyze our authentication flow"
 
@@ -40,7 +54,7 @@ Would you like me to:
 - Update documentation?"
 ```
 
-2. Backlog Prioritization Assistant
+# 2. Backlog Prioritization Assistant
 ```
 User: "@backlog-assist analyze sprint backlog"
 
@@ -83,7 +97,7 @@ Would you like me to:
 - Generate stakeholder report?"
 ```
 
-3. Azure Integration Assistant
+# 3. Azure Integration Assistant
 ```
 User: "@azure-assist help me scale our AKS cluster"
 
@@ -120,7 +134,33 @@ Would you like me to:
 - Create monitoring dashboard?"
 ```
 
-4. Merge Conflict Resolution Assistant
+# 3.1 Azure Extension
+````
+User: "@azure What's the best VM size for our Node.js application?"
+
+Extension: "Analyzing your Node.js application:
+- Current Memory Usage: 4GB peak
+- CPU: 2 cores at 70% utilization
+- Network: 5GB/day transfer
+- Storage: 50GB used
+
+Recommendation:
+- Standard_D2s_v3 VM
+  • 2 vCPUs, 8GB memory
+  • Cost: ~$70/month
+  • Good balance for your workload
+
+Alternative options:
+1. Standard_B2s (cheaper, but less consistent)
+2. Standard_D4s_v3 (if you expect 2x growth)
+
+Would you like me to:
+- Create ARM template
+- Compare detailed pricing
+- Show performance benchmarks?"
+`````
+
+# 4. Merge Conflict Resolution Assistant
 ```
 User: "@git-assist help resolve conflicts in PR #123"
 
@@ -155,7 +195,7 @@ Would you like me to:
 - Run tests on merged code?"
 
 ```
-5. Post-merge Documentation Builder
+# 5. Post-merge Documentation Builder
 ```
 User: "@docs-assist check documentation after merge PR #456"
 
@@ -192,7 +232,7 @@ Would you like me to:
 - Generate changelog?"
 ```
 
-6. Impact Analysis Assistant
+# 6. Impact Analysis Assistant
 ```
 User: "@impact-assist analyze adding OAuth2 support"
 
@@ -242,7 +282,7 @@ Would you like me to elaborate on any specific extension or provide more detaile
 
 Here are the top 3 most needed extensions with their use cases:
 ````
-7. Comprehensive Infrastructure Cost Optimizer
+# 7. Comprehensive Infrastructure Cost Optimizer
 ````
 User: "@cloud-optimizer analyze our AWS costs"
 
@@ -263,7 +303,7 @@ Would you like me to:
 `````
 
 
-8. Security & Compliance Validator
+# 8. Security & Compliance Validator
 
 ```
 User: "@security-validator scan PR #123"
@@ -286,7 +326,7 @@ GENERATED:
 Would you like me to create a fixing PR?"
 ```
 
-9. Intelligent Code Review Assistant
+# 9. Intelligent Code Review Assistant
 ```
 User: "@code-reviewer analyze PR #456"
 
@@ -319,33 +359,7 @@ SUGGESTIONS:
 Generated code snippets ready to apply. Review now?"
 ````
 
-10. Azure Extension
-````
-User: "@azure What's the best VM size for our Node.js application?"
-
-Extension: "Analyzing your Node.js application:
-- Current Memory Usage: 4GB peak
-- CPU: 2 cores at 70% utilization
-- Network: 5GB/day transfer
-- Storage: 50GB used
-
-Recommendation:
-- Standard_D2s_v3 VM
-  • 2 vCPUs, 8GB memory
-  • Cost: ~$70/month
-  • Good balance for your workload
-
-Alternative options:
-1. Standard_B2s (cheaper, but less consistent)
-2. Standard_D4s_v3 (if you expect 2x growth)
-
-Would you like me to:
-- Create ARM template
-- Compare detailed pricing
-- Show performance benchmarks?"
-`````
-
-11. OAuth Implementation Assistant
+# 10. OAuth Implementation Assistant
 `````
 
 User: "@oauth Help me implement OAuth for Google login"
@@ -379,7 +393,7 @@ Create security checklist
 Add test cases?"
 ``````
 
-12. GitHub Action Runner Optimizer
+# 11. GitHub Action Runner Optimizer
 ``````
 User: "@runner-assist Choose best runner for our Android build"
 
@@ -408,7 +422,7 @@ Update workflow YAML
 Add caching strategy
 Optimize build settings?"
 ``````
-13. GitHub Discussions Manager
+# 12. GitHub Discussions Manager
 ```````
 User: "@discussions-assist Analyze our community engagement"
 
@@ -435,7 +449,7 @@ Setup suggested categories
 Create response templates
 Generate engagement report?"
 ```````
-14. Co-Teacher Assistant
+# 13. Co-Teacher Assistant
 ``````
 User: "@co-teacher Setup CS101 Introduction to Programming"
 
@@ -511,7 +525,7 @@ Generate targeted exercises
 Create visual explanations
 Schedule 1:1 support?"
 ```````
-15. Slack
+# 14. Slack
 ```````
 User: "@slack-assist What is the Hyperspace project and which repo should I look at?"
 
